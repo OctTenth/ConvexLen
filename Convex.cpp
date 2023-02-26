@@ -28,9 +28,6 @@ int main() {
     //设置原点到窗口中间
     setorigin(WINDOW_WIDTH / 2, WINDOW_HEIGHT / 2);
 
-    //设置y轴正方向向上
-    setaspectratio(1, 1);
-
     DrawPicture(objDis);
 
     ExMessage mouse;
